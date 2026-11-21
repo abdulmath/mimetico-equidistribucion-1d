@@ -4,7 +4,8 @@ title: "Adaptación de malla por equidistribución para diferencias finitas mim�
 abstract: >-
   Implementación en GNU Octave del esquema mimético de Castillo y Grone de orden
   dos en una dimensión sobre mallas adaptadas por equidistribución, con los tres
-  suavizados de la función monitor que se comparan en el artículo y los
+  suavizados de la función de densidad de malla que se comparan en el artículo
+  y los
   programas que generan todas sus tablas y figuras.
 type: software
 authors:

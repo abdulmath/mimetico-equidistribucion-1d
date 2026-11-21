@@ -6,7 +6,8 @@ de Abdul Abner Lugo Jiménez (IEES Loyola, San Cristóbal, República Dominicana
 
 El repositorio contiene el esquema mimético de Castillo y Grone de orden dos en
 una dimensión, el lazo de adaptación por equidistribución con el algoritmo de de
-Boor, los tres suavizados de la función monitor que se comparan en el artículo,
+Boor, los tres suavizados de la función de densidad de malla que se comparan
+en el artículo,
 y los programas que generan todas las tablas y figuras del texto. Ningún número
 del artículo está copiado a mano: todos salen de estos programas.
 
@@ -76,7 +77,7 @@ explicaciones alternativas que discute el artículo, la transformación de la
 variable y el tratamiento de la frontera. `prueba_orden2.m` es el experimento
 de control, con la densidad construida al margen de la malla a partir de la
 derivada exacta. `prueba_orden4.m` compara el filtro de anchura fija en x con
-el de Dorfi y Drury y barre el parámetro de escala del monitor.
+el de Dorfi y Drury y barre el parámetro de escala de la densidad.
 `prueba_orden5.m` barre sigma_0 y `prueba_orden6.m` y `prueba_orden7.m`
 estudian la anchura adaptativa y la relajación del lazo en mallas gruesas.
 
@@ -106,6 +107,9 @@ orden por encima de la que usa el resto del artículo. Con 1e-10 el problema A
 con 3200 celdas y beta_s = 20 entra en ciclo. El error final no cambia en
 ninguna de las cifras publicadas, pero la malla queda determinada un orden de
 magnitud peor que con el filtro de escala fija, que sí alcanza 1e-10.
+
+`prueba_tolerancia.m` lo comprueba: corre esa configuración con las dos
+tolerancias y muestra el ciclo en el que entra la iteración exterior.
 
 ## Cita
 
