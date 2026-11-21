@@ -1,0 +1,13 @@
+
+=== A: pico interior en x0 = 0.8, k(x) = 1/a + a(x-x0)^2 ===
+  Celdas   iter   conv   Linf          orden   L2            orden   ganancia 
+  3200     7      sí    7.7364e-07    --      9.3604e-08    --      45.2     
+  6400     6      sí    1.9348e-07    2.00    2.3405e-08    2.00    45.1     
+
+=== B: capa en x = 0, k(x) = 1 ===
+  Celdas   iter   conv   Linf          orden   L2            orden   ganancia 
+  3200     7      sí    1.7697e-05    --      1.2963e-05    --      589.6    
+  6400     6      sí    4.4423e-06    1.99    3.2544e-06    1.99    587.0    
+
+  La ganancia con 6400 celdas debe coincidir con la de 3200.
+

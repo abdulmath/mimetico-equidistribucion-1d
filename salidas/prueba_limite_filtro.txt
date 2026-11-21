@@ -1,0 +1,60 @@
+
+=== el filtro por bloques contra suavizaAnchuraFija ===
+  N =   200   max|dif| = 0.000e+00
+  N =   800   max|dif| = 0.000e+00
+  N =  1600   max|dif| = 0.000e+00
+
+=== razon max/min de la densidad suavizada en el punto fijo ===
+  Celdas   A            B           
+  200      19.0702      46.0136     
+  400      15.4679      36.7992     
+  800      12.7545      31.2282     
+  1600     11.8632      29.3277     
+  3200     11.4829      28.5088     
+  6400     11.3059      28.1261     
+
+=== lo mismo con la derivada exacta sobre malla auxiliar fija ===
+  M        A            B           
+  2000     11.4388      27.0294     
+  4000     11.2865      27.3971     
+  8000     11.2114      27.5790     
+  16000    11.1740      27.6694     
+
+=== convergencia al cociente gaussiano continuo ===
+  Problema  Densidad       Malla      N      max|dif|     orden 
+  A         de la prop.    uniforme   400    1.085e-03    ---   
+  A         de la prop.    uniforme   800    3.687e-07    11.52 
+  A         de la prop.    uniforme   1600   1.050e-07    1.81  
+  A         de la prop.    graduada   400    1.260e-02    ---   
+  A         de la prop.    graduada   800    5.051e-05    7.96  
+  A         de la prop.    graduada   1600   2.738e-07    7.53  
+  A         con borde k1   uniforme   400    3.652e-01    ---   
+  A         con borde k1   uniforme   800    2.021e-01    0.85  
+  A         con borde k1   uniforme   1600   1.064e-01    0.93  
+  A         con borde k1   graduada   400    5.402e-01    ---   
+  A         con borde k1   graduada   800    3.199e-01    0.76  
+  A         con borde k1   graduada   1600   1.745e-01    0.87  
+  B         de la prop.    uniforme   400    1.062e-02    ---   
+  B         de la prop.    uniforme   800    2.571e-03    2.05  
+  B         de la prop.    uniforme   1600   6.465e-04    1.99  
+  B         de la prop.    graduada   400    1.942e-03    ---   
+  B         de la prop.    graduada   800    4.863e-04    2.00  
+  B         de la prop.    graduada   1600   1.217e-04    2.00  
+  B         con borde k1   uniforme   400    5.294e+00    ---   
+  B         con borde k1   uniforme   800    2.964e+00    0.84  
+  B         con borde k1   uniforme   1600   1.565e+00    0.92  
+  B         con borde k1   graduada   400    1.612e-01    ---   
+  B         con borde k1   graduada   800    9.546e-02    0.76  
+  B         con borde k1   graduada   1600   5.206e-02    0.87  
+
+  Las dos familias de mallas convergen al mismo limite continuo.
+  Con la densidad de la proposicion el orden es dos; el reescalado de
+  borde lo baja a uno sin cambiar el limite.
+
+=== limite extrapolado con el delta cuadrado de Aitken ===
+                 A            B           
+  punto fijo     11.1517      27.7904     
+  malla auxiliar 11.1368      27.7588     
+
+  Los dos caminos deben coincidir, y el valor no debe ser uno.
+

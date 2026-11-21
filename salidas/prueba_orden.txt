@@ -1,0 +1,27 @@
+
+=== Dónde cae el error máximo, malla adaptada ===
+  Celdas  Linf         posición Linf interior h_1/h_med    h_N/h_med   
+  100     7.4294e-04   0.8019    7.4294e-04   2.979        0.829       
+  200     1.9507e-04   0.8021    1.9507e-04   3.011        0.632       
+  400     4.9019e-05   0.8019    4.9019e-05   2.456        0.579       
+  800     1.2340e-05   0.8020    1.2340e-05   2.030        0.558       
+  1600    3.0923e-06   0.8021    3.0923e-06   1.890        0.548       
+
+=== Suavidad de la malla adaptada ===
+  Se mide max|h_{i+1}/h_i - 1|; la supraconvergencia del esquema pide
+  que esa cantidad tienda a cero al refinar.
+  Celdas  max salto      max salto s/TL h_max/h_min   
+  100     0.3873         0.3752         19.1          
+  200     0.2281         0.2158         19.1          
+  400     0.1251         0.1157         15.5          
+  800     0.0649         0.0598         12.8          
+  1600    0.0330         0.0304         11.9          
+
+=== Orden según la densidad empleada ===
+  Celdas  Linf con TL  orden   Linf sin TL  orden   Linf arco b=5 orden  
+  100     7.4294e-04   --      6.8060e-04   --      3.6691e-04   --     
+  200     1.9507e-04   1.93    1.8657e-04   1.87    2.3546e-04   0.64   
+  400     4.9019e-05   1.99    4.7192e-05   1.98    6.2721e-05   1.91   
+  800     1.2340e-05   1.99    1.1828e-05   2.00    1.5745e-05   1.99   
+  1600    3.0923e-06   2.00    2.9650e-06   2.00    3.9435e-06   2.00   
+

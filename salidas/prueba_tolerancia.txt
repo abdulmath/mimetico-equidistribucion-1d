@@ -1,0 +1,26 @@
+
+=== Problema A, 3200 celdas, dos tolerancias ===
+  suavizado            tolX      conv    iter    mov. final    Linf         
+  global, betaS=20     1e-09     sí     35      8.583e-10     2.4073e-07   
+  global, betaS=20     1e-10     no      300     4.434e-09     2.4073e-07   
+  anchura fija         1e-09     sí     6       1.611e-10     7.7366e-07   
+  anchura fija         1e-10     sí     7       1.857e-11     7.7364e-07   
+
+=== El ciclo del suavizado elíptico con tolX = 1e-10 ===
+  Movimiento de la malla a partir de la iteración 50.
+  mínimo  1.617e-10
+  máximo  3.210e-08
+  mediana 5.208e-09
+
+  Últimas diez iteraciones
+  291    1.087e-08
+  292    1.940e-08
+  293    1.273e-08
+  294    6.688e-09
+  295    8.156e-09
+  296    1.032e-08
+  297    6.873e-09
+  298    2.823e-09
+  299    4.986e-10
+  300    4.434e-09
+

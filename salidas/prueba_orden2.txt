@@ -1,0 +1,26 @@
+
+=== Localización del mayor salto de malla ===
+  Celdas  índice   posición salto max   salto medio salto interior
+  200     87        0.7657    0.2281      0.0222      0.2281     
+  400     173       0.7626    0.1251      0.0106      0.1251     
+  800     347       0.7633    0.0649      0.0050      0.0649     
+  1600    694       0.7632    0.0330      0.0025      0.0330     
+
+=== Malla equidistribuida con densidad fija (derivada exacta) ===
+  La densidad ya no depende de la malla: si el orden sube a 2, el
+  responsable es el monitor calculado sobre la malla en movimiento.
+  Celdas  Linf          orden   L2            orden   salto max  
+  100     5.6924e-03    --      6.4309e-04    --      2.1868     
+  200     1.8158e-03    1.65    2.1542e-04    1.58    1.4032     
+  400     4.9928e-04    1.86    6.1395e-05    1.81    0.7411     
+  800     1.3296e-04    1.91    1.5808e-05    1.96    0.3543     
+  1600    3.5139e-05    1.92    3.9808e-06    1.99    0.1694     
+
+=== Densidad fija: efecto del parámetro de escala ===
+  Celdas  beta = 0.1    orden   beta = 0.5    orden   beta = 5      orden  
+  100     6.6565e-03    --      5.6924e-03    --      5.9463e-03    --     
+  200     1.8079e-03    1.88    1.8158e-03    1.65    2.1472e-03    1.47   
+  400     4.6223e-04    1.97    4.9928e-04    1.86    9.2430e-04    1.22   
+  800     1.1640e-04    1.99    1.3296e-04    1.91    2.8859e-04    1.68   
+  1600    2.9302e-05    1.99    3.5139e-05    1.92    1.1902e-04    1.28   
+

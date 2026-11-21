@@ -1,0 +1,30 @@
+
+=== Un paso de de Boor sobre una densidad conocida ===
+  Se mide la dispersión relativa de la masa por celda, int rho sobre
+  cada celda, que debe anularse hasta el redondeo.
+  Celdas    antes          después      
+  50        2.914e+00      4.088e-14     
+  100       8.519e+00      1.266e-13     
+  200       1.549e+01      4.433e-13     
+  400       1.959e+01      1.282e-12     
+
+=== Convergencia del lazo exterior según omega, 100 celdas ===
+  omega    converge  iter     mov. final    Linf         
+  1.00     no        300      9.970e-07     7.4294e-04   
+  0.70     sí       36       8.195e-11     7.4295e-04   
+  0.50     sí       53       7.400e-11     7.4295e-04   
+  0.30     sí       90       8.823e-11     7.4295e-04   
+  0.20     sí       135      8.916e-11     7.4295e-04   
+  0.10     sí       263      9.867e-11     7.4295e-04   
+
+=== Errores en la malla final, omega = 0.3 ===
+  Celdas   nodos   iter    Linf adapt    L2 adapt      Linf unif     L2 unif       ganancia
+  40       41      75      2.3085e-03    2.5799e-04    4.4731e-02    1.1043e-02    19.4    
+  60       61      75      1.9428e-03    1.8361e-04    4.4866e-02    9.0896e-03    23.1    
+  80       81      73      1.0413e-03    1.1283e-04    4.0350e-02    7.0558e-03    38.8    
+  100      101     90      7.4295e-04    8.1160e-05    3.4116e-02    5.3071e-03    45.9    
+  120      121     77      5.0394e-04    6.1337e-05    2.8222e-02    3.9364e-03    56.0    
+  160      161     72      2.9950e-04    3.6630e-05    1.8603e-02    2.1674e-03    62.1    
+  200      201     69      1.9507e-04    2.3572e-05    1.2056e-02    1.2411e-03    61.8    
+  400      401     82      4.9019e-05    5.9475e-06    2.0302e-03    1.9708e-04    41.4    
+

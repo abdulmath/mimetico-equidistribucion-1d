@@ -1,0 +1,38 @@
+=== 1. Soluciones y mallas adaptadas ===
+  malla del panel: 100 celdas, 36 iteraciones, converge 1
+  Problema A: pico interior en x_0 = 0.8: h_max/h_min = 19.1
+  malla del panel: 100 celdas, 27 iteraciones, converge 1
+  Problema B: capa en x = 0: h_max/h_min = 46.0
+=== 2. Tamaño de celda ===
+
+=== 3. Salto máximo de la razón de tamaños ===
+  A  N= 200   anchura 0.2281   Dorfi-Drury 0.4488
+  A  N= 400   anchura 0.1251   Dorfi-Drury 0.3511
+  A  N= 800   anchura 0.0649   Dorfi-Drury 0.3185
+  A  N=1600   anchura 0.0330   Dorfi-Drury 0.3185
+  A  N=3200   anchura 0.0167   Dorfi-Drury 0.3186
+  B  N= 200   anchura 0.2485   Dorfi-Drury 0.3111
+  B  N= 400   anchura 0.0868   Dorfi-Drury 0.3111
+  B  N= 800   anchura 0.0271   Dorfi-Drury 0.3111
+  B  N=1600   anchura 0.0135   Dorfi-Drury 0.3111
+  B  N=3200   anchura 0.0067   Dorfi-Drury 0.3111
+
+=== 4. Convergencia ===
+  A  N= 200   uniforme 1.2056e-02   adaptada 1.9507e-04   ganancia 61.8
+  A  N= 400   uniforme 2.0302e-03   adaptada 4.9019e-05   ganancia 41.4
+  A  N= 800   uniforme 5.5191e-04   adaptada 1.2340e-05   ganancia 44.7
+  A  N=1600   uniforme 1.3991e-04   adaptada 3.0923e-06   ganancia 45.2
+  A  N=3200   uniforme 3.4969e-05   adaptada 7.7364e-07   ganancia 45.2
+  B  N= 200   uniforme 2.9871e+00   adaptada 3.9061e-03   ganancia 764.7
+  B  N= 400   uniforme 6.8401e-01   adaptada 1.0618e-03   ganancia 644.2
+  B  N= 800   uniforme 1.6793e-01   adaptada 2.7572e-04   ganancia 609.1
+  B  N=1600   uniforme 4.1789e-02   adaptada 7.0174e-05   ganancia 595.5
+  B  N=3200   uniforme 1.0434e-02   adaptada 1.7697e-05   ganancia 589.6
+
+=== 5. Efectividad del estimador ===
+
+  A: I_eff final 88.4% con 131 nodos, 8 mallas
+
+  B: I_eff final 52.3% con 507 nodos, 12 mallas
+
+Figuras escritas en articulo/figuras: 12 paneles, cada uno en .pdf y .png

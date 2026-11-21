@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si usa este código, cite el artículo asociado."
+title: "Adaptación de malla por equidistribución para diferencias finitas miméticas en una dimensión"
+abstract: >-
+  Implementación en GNU Octave del esquema mimético de Castillo y Grone de orden
+  dos en una dimensión sobre mallas adaptadas por equidistribución, con los tres
+  suavizados de la función monitor que se comparan en el artículo y los
+  programas que generan todas sus tablas y figuras.
+type: software
+authors:
+  - family-names: "Lugo Jiménez"
+    given-names: "Abdul Abner"
+    email: alugo@ipl.edu.do
+    affiliation: "Instituto Especializado de Estudios Superiores Loyola, Dirección de Postgrado y Formación Profesional. San Cristóbal, República Dominicana"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-21"
+keywords:
+  - diferencias finitas miméticas
+  - equidistribución
+  - adaptación de malla
+  - supraconvergencia
+  - método de de Boor
+  - GNU Octave

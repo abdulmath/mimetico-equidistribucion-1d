@@ -1,0 +1,12 @@
+figuras/*.pdf
+figuras/*.png
+figuras/*.svg
+figuras/*.eps
+*.mat
+octave-workspace
+
+# copias de seguridad y restos de corridas
+salidas_antes/
+salidas/*.err
+*~
+.DS_Store
